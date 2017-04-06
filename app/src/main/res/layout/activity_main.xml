@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+   >
+
+    <TextView
+        android:text="Most Popular movies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:id="@+id/sort_by_textView"
+        android:layout_marginLeft="13dp"
+        android:paddingBottom="10dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview_items"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp" />
+
+    <ProgressBar
+        android:id="@+id/pb_loading_indicator"
+        android:layout_height="42dp"
+        android:layout_width="42dp"
+        android:layout_gravity="center"
+        android:visibility="invisible" />
+</FrameLayout>

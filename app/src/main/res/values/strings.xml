@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MovieDb</string>
+    <string name="action_sort">Sort</string>
+    <string name="action_sort_by_popularity">By Popularity</string>
+    <string name="action_sort_by_rating">By Rating</string>
+    <string name="action_favourites">Favourites</string>
+
+    <string name="put_extra_menu_choice">MENU_CHOICE</string>
+    <string name="put_extra_movie_details">movieDetails</string>
+    <string name="put_extra_movie_id">MOVIE_ID</string>
+    <string name="put_extra_uri">URI</string>
+    <string name="put_extra_path">PATH</string>
+    <string name="put_extra_sql_operation">SQL_Operation</string>
+
+    <string name="menu_popular">popular</string>
+    <string name="menu_top_rated">top_rated</string>
+    <string name="menu_favourites">favourites</string>
+    <string name="exception_SocketTimeoutException">A Timeout error occurred while connecting to the MovieDB site.Please try again by choosing an option (By Popularity,By Rating) through the More Options/3 dot menu</string>
+    <string name="exception_IOException">Can\'t connect (I/O Error) to the MovieDB database.Is Internet enabled on your device? Please enable it and try again by choosing an option (By Popularity,By Rating) through the More Options/3 dot menu</string>
+    <string name="exception_JSONException">There was a problem retrieving the Movie\'s details</string>
+    <string name="exception_GeneralException">An error occurred while trying to connect to the MovieDB site</string>
+    <string name="exception_MalformedURLException">There was a problem with building the URL</string>
+    <string name="exception_SQLException">SQL operation failed</string>
+
+
+
+</resources>
