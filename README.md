@@ -60,6 +60,6 @@ In this second and final stage, you will build a fully featured application that
 
 ## Screens
 
-![screen](art/phone-movies.png)
+![screen](../master/art/device-2017-04-07-181046.png)
 
-![screen](art/phone-details.png)
+![screen](../master/art/device-2017-04-07-181156.png)
