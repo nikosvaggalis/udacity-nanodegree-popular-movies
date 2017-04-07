@@ -57,3 +57,9 @@ In this second and final stage, you will build a fully featured application that
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+
+## Screens
+
+![screen](art/phone-movies.png)
+
+![screen](art/phone-details.png)
